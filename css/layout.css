@@ -1,0 +1,176 @@
+#loadbody {
+	height: 250px;
+	width: 385px;
+	position: absolute;
+	left: 500px;
+	top: 200px;
+	background-color: #f6f6f6;
+	border-radius: 10px;
+	box-shadow: 0 0 10px darkgray;
+}
+
+#btn_close {
+	float: right;
+	margin: 10px 5px 0 0;
+}
+
+@font-face  {
+	font-family: 'iconfont';
+    src: url('../img/iconfont.eot'); /* IE9*/
+    src: url('../img/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../img/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../img/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../img/iconfont.svg') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    margin-right: 7px;
+    cursor: pointer;
+    }
+
+#login_logo {
+	height: 50px;
+	width: 110px;
+	background-image: url(../img/login_window_logo.png);
+	background-position: -240px 7px;
+	background-repeat: no-repeat;
+	position: relative;
+	left: 135px;
+	margin-top: 5px;
+	cursor: move;
+}
+
+.account_number {
+	color: gray;
+}
+
+.sign_input {
+	margin: 25px 0 0 70px;
+}
+
+.sign_input span {
+	font-size: 1.1em;
+	font-weight: 700;
+	letter-spacing: .2em;
+}
+
+.sign_input input {
+	width: 185px;
+	height: 28px;
+	border-radius: 10px;
+	border: 1px solid gainsboro;
+}
+
+.btn {
+	display: inline-block;
+	background: url(../img/login_btn.png) -111px -1px no-repeat;
+	width: 111px;
+    height: 36px;
+    border: 0;
+	text-align: center;
+	line-height: 20px;
+	color: #0C4E7C;
+	 cursor: pointer;
+	margin: 20px 0 0 75px;
+}
+
+#loginstate {
+	display: inline-block;
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+
+#loginstate_icon, #loginstate_down, #loginstate_text {
+	float: left;
+	cursor: pointer;
+}
+
+.loginstate_icon {
+	height: 14px;
+	width: 14px;
+	text-indent: -999em;
+	overflow: hidden;
+	margin: 0 5px;
+}
+
+#loginstate_down {
+	background: url(../img/ptlogin.png) 0 -17px no-repeat;
+	height: 14px;
+	width: 14px;
+	text-indent: -999em;
+	overflow: hidden;
+}
+
+#loginstate_text {
+	font-size: .9em;
+}
+
+#loginstatePanal {
+	display: none;
+	position: absolute;
+	right: 80px;
+	top: 193px;
+	background: #fff;
+	 z-index: 10;
+	margin: 0;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ccc #6a6a6a #666 #cdcdcd;
+	font-size: 12px;
+	line-height: 1.5;
+	padding: 0;
+}
+
+.statepanel_li {
+	display: block;
+	list-style-type: none;
+	padding: 3px 0;
+	height: 16px;
+	width: 90px;
+	line-height: 16px;
+	overflow: hidden;
+	zoom: 1;
+	cursor: pointer;
+}
+
+.login_state, .online {
+	background: url("../img/ptlogin.png") 0 0 no-repeat;
+}
+
+.login_state, .callme {
+	background: url("../img/ptlogin.png") -72px 0 no-repeat;
+}
+
+.login_state, .away {
+	background: url("../img/ptlogin.png") -18px 0 no-repeat;
+}
+
+.login_state, .busy {
+	background: url("../img/ptlogin.png") -36px 0 no-repeat;
+}
+
+.login_state, .silent {
+	background: url("../img/ptlogin.png") -108px 0 no-repeat;
+}
+
+.login_state, .hidden {
+	background: url("../img/ptlogin.png")-54px 0 no-repeat;
+}
+
+.stateSelect_icon {
+	float: left;
+	width: 14px;
+	height: 14px;
+	overflow: hidden;
+	margin-left: 10px;
+}
+
+.stateSelect_text {
+	margin-left: 30px;
+}
